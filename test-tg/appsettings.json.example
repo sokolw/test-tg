@@ -1,0 +1,15 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=tgbot;Trusted_Connection=True;TrustServerCertificate=True;"
+  },
+  "Secrets": {
+    "TelegramBotToken": "token"
+  }
+}
